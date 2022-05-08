@@ -7,6 +7,17 @@ More documentation can be found in the following links:
 - complete challenge documentation: https://box.iiep.unesco.org/s/YxZiiATTsAsbyMK/download/Hacking%20EDplanning_Challenge%202%20brief.pdf
 - Github's deposit of the challenge: https://github.com/iiepdev/HackingEDPlanningV2-Challenge2
 
+## Description
+
+Our solution computes a list of all the schools endangered by the sea level rise caused by global warming in a given patch of land. In order to do that, it needs the following data:
+- a Digital Elevation Model (DEM) of the considered land,
+- the coordinates of the schools considered, preferably located in the considered land (otherwise this solution would not be very useful !),
+- a prediction of the sea level elevation at a given date along with the elevation at the current date.
+
+With such a data, our solution can compute the list of schools among the provided ones that will be endangered by the specified sea level rise. The following diagram illustrates our procedure:
+
+![](diagram.io?raw=True)
+
 ## Using this deposit
 
 This deposit should be self-sufficient and contain all the necessary documentation for you to understand what we did during this challenge. It is composed by the following files:
